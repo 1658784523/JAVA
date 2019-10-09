@@ -63,6 +63,7 @@ class 复数操作{
     public static void main(String args[]){
         int input1=0,input2=0;
         String inputS1=null,inputS2=null,choice;
+
         Scanner input=new Scanner(System.in);
         System.out.print("输入你选择的操作方式 + — * /:");
         choice=input.nextLine();
